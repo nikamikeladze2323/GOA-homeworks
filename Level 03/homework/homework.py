@@ -19,6 +19,3 @@ print(num4 * num1 - num2)  #8
 print(num5 + num4 // num2)  #9
 print(num3 - num4)  #10
 
-
-
-

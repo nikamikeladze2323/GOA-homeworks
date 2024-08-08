@@ -7,4 +7,3 @@ print((name) + " " + (surname) + " " + str(age))
 
 
 
-

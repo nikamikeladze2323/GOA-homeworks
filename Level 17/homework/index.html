@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>sign up</title>
 </head>
 <body>
-    <center><h1>sign up</h1></center>
+    <p>personal details</p>
     <form>
-        <center><input type="name" placeholder="Enter your username" required></center> <br> <br>
-        <center><input type="email" placeholder="Enter your emil" required></center> <br>  <br>
-        <center><input type="password" placeholder="Enter your password" required></center> <br> <br>
-        <center><input type="radio">Male</center> 
-        <center><input type="radio">Female</center> <br> <br>
-        <center><input type="checkbox">do you want to save your data?</center> <br> <br>
-        <center><input type="submit"></center>
+        <p>salutation</p>
+        <select>
+            <option value="--None--">--None--</option> 
+            <option value="something">--something--</option>
+            <option value="1something">--something--</option>
+        </select>
+        <p>First name:</p>
+        <label for="name"></label>
+        <input type="name" placeholder="First name" id="name" required maxlength="20"> <br> 
+        <p>second name:</p>
+        <input type="name" placeholder="second name" required maxlength="20"> <br> <br>
+        Gender:
+        Male <input type="radio"> Female <input type="radio"> <br> <br>
+        Date of birth: <input type="date">
+        <p>Address:</p> <input type="text" required maxlength="50"> <br> <br>
+        <input type="submit">
     </form>
 </body>
 </html>

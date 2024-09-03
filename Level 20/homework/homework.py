@@ -1,6 +1,8 @@
 # 1.
+sum = 0
 for i in range(0, 100, 5):
     print(i)
+    sum = sum + i
 # 2.
 # 1. ლუწია
 for i in range(0, 100, 2):

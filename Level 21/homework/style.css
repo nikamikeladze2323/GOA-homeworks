@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: sienna;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding-left: 125px;
+    font-size: 20px;
+    padding-left: 100px;
+    
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: left;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.navbar a:hover{
+    background-color: darkslategray;
+}
+.navbar li{
+    float: right;
+}
+h1{
+    padding-right: 570px;
+    color: white;
+}
+p{
+  padding-right: 670px;
+}
+h4{
+    color: white;
+}
+.col-1{
+    text-align: center;
+    padding-top: 200px;
+    color: sienna;
+}
+

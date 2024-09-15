@@ -34,6 +34,7 @@ while counter3 > 0:
  counter3 = counter3 - 1
  print(counter3)
 
+#10
 
 
 

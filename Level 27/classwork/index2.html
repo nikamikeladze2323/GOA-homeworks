@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+</head>
+<!--1. შექმენით 3 p თეგი და ყველას მიეცით სხვადასხვა id, შემდეგ ყველა ამ p თეგს სხვა და სხვა ფერი მიეცით-->
+<!--შექმენით 3 p თეგი ორს მიეცი ერთი და იგივე კლასი ხოლო მესამე დატოვე კლასის გარეშე, შემდეგ მხოლოდ ისეთი p თეგები რომელსაც კლასი აქვთ გახადეთ ლურჯი-->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #color_blue{
+        color: blue;
+    }
+    #color_red{
+        color: red;
+    }
+    #color_green{
+        color: green;
+    }
+    .blue{
+        color: blue;
+    }
+</style>
+<body>
+    <p id="color_blue">hello world</p>
+    <p id="color_red">hi</p>
+    <p id="color_green">hello</p>
+     
+
+    <p class="blue">hi</p>
+    <p class="blue">hi</p>
+    <p>hello</p>
+</body>
+</html>

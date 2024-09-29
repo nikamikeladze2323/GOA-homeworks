@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --color-primary:#0073ff;
+            --color-white:#e9e9e9;
+            --color-black:#141d28;
+            --color-black-1: #212b38;
+            }
+        body {
+            font-family: sans-serif;
+        }
+
+        .body{
+            text-align: center;
+            border: 2px;
+        }
+    </style>
+</head>
+<body class="body">
+    <main>
+        <form>
+            <input type="text" placeholder="Username" required maxlength="15"> <br> <br>
+            <input type="email" placeholder="Email" required> <br> <br>
+            <input type="password" placeholder="Password" required> <br> <br>
+            <input type="radio"> Female
+            <input type="radio"> Male
+            <input type="radio"> Custom <br> <br>
+            <input type="date"> <br> 
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>

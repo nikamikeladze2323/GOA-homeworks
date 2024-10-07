@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgreen;
+}
+.header{
+    color: rgb(0, 80, 0);
+    background-color: #000000;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+.down_header{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.about_goa{
+    text-align: center;
+    font-size: 25px;
+}
+.video{
+    background-color: #000000;
+    color: #fff;
+    align-items: center;
+}

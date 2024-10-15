@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    text-decoration: underline;
+    color: red;
+    text-shadow: 10 10 10;
+}

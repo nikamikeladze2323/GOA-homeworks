@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.MyTable{
+    width: 300px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+}
+
+tr:nth-child(1){
+    border: 2px solid white;
+    background-color: aqua;
+}
+
+tr:nth-child(3){
+    color: aqua;
+}
+table{
+    border-bottom: 2px solid aqua;
+}
+
+td:hover{
+    background-color: darkgrey;
+}

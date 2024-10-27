@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#p1{
+    color: #fff000
+}
+
+#p2{
+    color: #ff00;
+}
+
+#p3{
+    color: #00ff00
+}
+
+#p4{
+    color: #00ff;
+}
+
+#p5{
+    color: #00ff99
+}

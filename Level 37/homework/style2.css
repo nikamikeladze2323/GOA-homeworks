@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#p1{
+    color: rgb(yellow, red, blue );
+}
+
+#p2{
+    color: rgb(purple, red, pink );
+}
+
+#p3{
+    color: rgb(green, red, blue );
+}
+
+#p4{
+    color: rgb(yellow, green, orange);
+}
+
+#p5{
+    color: rgb(yellow, black blue );
+}

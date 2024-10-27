@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#p1{
+    text-decoration: line-through dashed;
+    color: yellow;
+}
+
+#p2{
+    text-decoration: overline dotted;
+    color: red;
+}
+
+#p3{
+    text-decoration: underline double;
+    color: blue;
+}
+
+#p4{
+    text-decoration: solid wavy;
+    color: purple;
+}
+
+#p5{
+    text-decoration: none;
+    color: aqua;
+}

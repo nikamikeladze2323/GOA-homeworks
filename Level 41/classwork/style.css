@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.ordered_list{
+    list-style-type: georgian;
+    list-style-position: inside;
+    list-style-type: upper-alpha;
+    list-style-image: url(https://th.bing.com/th/id/OIP.aZWMw6D96KxJtW9KmK2GBQHaFS?w=217&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}

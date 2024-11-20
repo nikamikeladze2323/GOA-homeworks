@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input[type="email"]{
+    border: 1px solid forestgreen;
+    outline: none;
+}
+
+input[type="password"]{
+    border: 1px solid skyblue;
+    outline: none;
+}
+
+input[type="number"]{
+    border: 1px solid red;
+    outline: none;
+}
+
+input[type="text"]{
+    border: 1px solid blue;
+    outline: none;
+}

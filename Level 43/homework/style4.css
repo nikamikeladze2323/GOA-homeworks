@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    background-color: #e74c3c;
+    transform: translateX(100px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}

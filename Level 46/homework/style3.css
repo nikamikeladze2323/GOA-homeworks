@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
-.first_div{
-    display: flex;
+#first_div{
+    flex-wrap: wrap;
+}
+
+#second_div{
+    flex-wrap: nowrap;
 }

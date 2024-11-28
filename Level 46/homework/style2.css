@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
-.first_div{
-    display: flex;
+#first_div{
+    flex-grow: calc(20px);
+}
+
+#second_div{
+    flex-shrink: calc(20px);
 }

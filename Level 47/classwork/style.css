@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: 1px solid ;
+    background-color: blue;
+    position: relative;
+    left: 100px;
+}
+
+.div{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#nav_main{
+    display: flex;
+}
+
+#ul_main{
+    list-style: none;
+}
+
+#nav_main, li{
+    position: relative;
+    left: 100px;
+    right: 100px;
+}

@@ -31,13 +31,22 @@
 }
 
 #parent_first, p{
-    flex-direction: row;
+    justify-content: baseline;
+    justify-content: right;
 }
 
-#parent_second, p{
-    flex-direction: column;
+#parent_second{
+    justify-content: center;
+    justify-content: left;
+    justify-content: end;
 }
 
-#parent_third, p{
-    flex-direction: column-reverse;
+#parent_third{
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
+
+
+
+

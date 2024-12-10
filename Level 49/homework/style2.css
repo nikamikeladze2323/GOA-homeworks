@@ -7,6 +7,11 @@
 
 #main_parent{
     display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: black;
 }
 
 #parent_first{
@@ -14,6 +19,8 @@
     height: 200px;
     background-color: blueviolet;
     color: white;
+    position: absolute;
+    left: 100px;
 }
 
 #parent_second{
@@ -21,6 +28,7 @@
     height: 200px;
     background-color: blue; 
     color: white;
+    position: absolute;
 }
 
 #parent_third{
@@ -28,16 +36,6 @@
     height: 200px;
     background-color: red;
     color: white;
-}
-
-#parent_first, p{
-    flex-direction: row;
-}
-
-#parent_second, p{
-    flex-direction: column;
-}
-
-#parent_third, p{
-    flex-direction: column-reverse;
+    position: absolute;
+    right: 100px;
 }

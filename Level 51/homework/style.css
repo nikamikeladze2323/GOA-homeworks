@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.link, nav, ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+}
+
+.link, nav, ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}

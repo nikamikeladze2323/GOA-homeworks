@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    animation-name: changecolorrotate;
+    animation-duration: 5s;
+}
+
+.main p{
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+@keyframes changecolorrotate{
+    0%{
+        background-color: brown;
+        transform: rotate(90deg);
+        
+    }
+
+    25%{
+        background-color: orange;
+        transform: rotate(-180deg);
+    }
+
+    50%{
+        background-color: red;
+        transform: rotate(360deg);
+    }
+
+    75%{
+        background-color: blueviolet;
+        transform: scale(360deg);
+    }
+
+    100%{
+        background-color: blue;
+        transform: translateX(100px);
+    }
+}

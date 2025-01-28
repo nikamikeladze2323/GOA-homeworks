@@ -12,3 +12,5 @@ age1 = 100
 while age1 > 0:
  age1 = age1 - 1
  print(age1)
+
+# while loop

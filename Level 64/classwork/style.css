@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(28, 28, 63);
+}
+
+.main{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(45, 45, 139);
+    border-radius: 10px;
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.600);
+}
+
+.main, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

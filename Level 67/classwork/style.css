@@ -3,3 +3,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+body div{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+body div .first{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+body div .second{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+body div .third{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+body div .fourth{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+body div .fifth{
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+}
+
+body div .sixth{
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+}
+
+body div .seventh{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+body div .eight{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+}
+
+body div .nine{
+    background-color: darkgreen;
+    width: 100px;
+    height: 100px;
+}

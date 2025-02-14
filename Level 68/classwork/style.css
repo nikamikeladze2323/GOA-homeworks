@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 100%;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.main{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: 50px;
+}
+
+.first_div{
+    background-color: hsl(228, 56%, 26%);
+    padding: 10px 30px;
+    padding-right: 100px;
+    padding-top: 40px;
+    border-radius: 8px 50% 8px 8px;
+}
+
+.first_div h1{
+    color: white;
+}
+
+.first_div div{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.first_div div .one{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.first_div div .two{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.first_div div .three{
+    background-color: hsl(229, 57%, 11%);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.second_div{
+    background-color: hsl(228, 56%, 26%);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.second_div p{
+    color: hsl(229, 7%, 55%);
+}
+
+.second_div p span{
+    color: hsl(243, 100%, 93%);
+}
+
+.second_div div{
+    background-color: hsl(229, 57%, 11%);
+}

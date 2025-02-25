@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(38, 38, 38);
+    padding: 30px 30px;
+}
+
+.logo{
+    margin-left: 100px;
+    color: white;
+}
+
+.logo span{
+    color: orangered;
+}
+
+.header-menu .header-nav{
+    display: flex;
+    gap: 40px;
+}
+
+.header-nav li{
+    list-style: none;
+}
+
+.header-nav li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.contacts{
+    margin-right: 100px;
+}
+
+.contacts a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.header-nav li a:hover{
+    color: orangered;
+}
+
+.main{
+    display: flex;
+    margin-top: 125px;
+    margin-left: 125px;
+    gap: 30px;
+}
+
+.other{
+    flex-direction: column;
+}
+
+.other h1{
+    font-size: 60px;
+}
+
+.other h1 span{
+    color: orangered;
+}
+
+.other p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.other .first{
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.other .second{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.main img{
+    border-radius: 50%;
+    width: 425px;
+    height: 525px;
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main{
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.main img{
+    height: 50vh;
+    width: 500px;
+    border-radius: 10px 10px 0 0;
+}
+
+.main p{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+@media (max-width: 431px) {
+    .main{
+        width: 250px;
+        height: 250px;
+    }
+
+    .main img{
+        width: 250px;
+        height: 250px;
+    }
+
+}

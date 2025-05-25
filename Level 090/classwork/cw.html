@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛒 Add to Cart</title>
+    <style>
+        .product { margin: 10px; padding: 10px; border: 1px solid black; display: inline-block; }
+        .cart { margin-top: 20px; padding: 10px; border: 2px solid red; }
+    </style>
+</head>
+<body>
+    <h1>🎁 პროდუქტების სია</h1>
+    
+    <div class="product">
+        <p>პროდუქტი 1 - 10₾</p>
+        <button onclick="addToCart('პროდუქტი 1', 10)">დამატება</button>
+    </div>
+    
+    <div class="product">
+        <p>პროდუქტი 2 - 15₾</p>
+        <button onclick="addToCart('პროდუქტი 2', 15)">დამატება</button>
+    </div>
+    
+    <div class="cart">
+        <h2>🛍 კალათა</h2>
+        <ul id="cartItems"></ul>
+        <p>საერთო თანხა: <span id="totalPrice">0</span>₾</p>
+    </div>
+
+    <script>
+        let cart = [];
+        let total = 0;
+
+        function addToCart(productName, price) {
+            cart.push({ name: productName, price: price });
+            total += price;
+
+            let cartList = document.getElementById("cartItems");
+            cartList.innerHTML = "";
+            cart.forEach(item => {
+                let li = document.createElement("li");
+                li.textContent = `${item.name} - ${item.price}₾`;
+                cartList.appendChild(li);
+            });
+
+            document.getElementById("totalPrice").textContent = total;
+        }
+    </script>
+</body>
+</html>

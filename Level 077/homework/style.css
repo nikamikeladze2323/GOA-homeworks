@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+#header #logo span{
+    color: orangered;
+}
+
+#links{
+    display: flex;
+    justify-content: space-between;
+}
+
+#links ul{
+    display: flex;
+    gap: 30px;
+}

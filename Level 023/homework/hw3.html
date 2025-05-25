@@ -1,0 +1,55 @@
+<!--შეეცადეთ თქვენი ნასწავლი მასალით გაააკეთოთ ესეთი Form-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის ფორმა</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>რეგისტრაციის ფორმა</h2>
+        <form action="submit.php" method="post">
+            
+            <label for="firstname">სახელი:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="შეიყვანეთ სახელი" required>
+
+            <label for="lastname">გვარი:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="შეიყვანეთ გვარი" required>
+
+            <label for="nickname">მეტსახელი:</label>
+            <input type="text" id="nickname" name="nickname" placeholder="შეიყვანეთ მეტსახელი">
+
+            <label for="email">ელ.ფოსტა:</label>
+            <input type="email" id="email" name="email" placeholder="შეიყვანეთ ელ.ფოსტა" required>
+
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" required>
+
+            <label for="dob">დაბადების თარიღი:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="mobile">მობილური:</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="შეიყვანეთ მობილურის ნომერი">
+
+            <label for="address">მისამართი:</label>
+            <textarea id="address" name="address" placeholder="შეიყვანეთ მისამართი" rows="3"></textarea>
+
+            <label>სქესი:</label>
+            <input type="radio" name="gender" value="male" id="male"><label for="male">მამრობითი</label>
+            <input type="radio" name="gender" value="female" id="female"><label for="female">მდედრობითი</label>
+            <input type="radio" name="gender" value="other" id="other"><label for="other">სხვა</label>
+
+            <div class="buttons">
+                <button type="submit">გაგზავნა</button>
+                <button type="reset">განახლება</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

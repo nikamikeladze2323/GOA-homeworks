@@ -1,0 +1,15 @@
+/* ID-ით სტილიზებული სათაური */
+#unique-title {
+    color: red; /* ტექსტის ფერი */
+    font-size: 32px; /* ტექსტის ზომა */
+    text-align: center; /* ცენტრში განლაგება */
+    font-weight: bold; /* ტექსტის სქელობა */
+}
+
+/* Class-ით სტილიზებული სათაური */
+.common-title {
+    color: blue; /* ტექსტის ფერი */
+    font-size: 28px; /* ზომა */
+    text-align: left; /* მარცხნივ განლაგება */
+    font-style: italic; /* დახრილი ტექსტი */
+}

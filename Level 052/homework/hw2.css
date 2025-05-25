@@ -1,0 +1,8 @@
+/* შექმენით ნებისმიერი გეომეტრიული ფიგურა , რომელიც 30 გრადუსით ბრუნავს. */
+
+.shape {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: rotate(30deg);
+}

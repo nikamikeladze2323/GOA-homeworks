@@ -1,0 +1,25 @@
+/* 1) შექმენით დივი როდესაც ამ დივზე მივიტანთ მაუსს ეს დივი დატრიალდეს 2880 გრადუსით ამასობაში გაიზარდოს ზომაში და შეიცვალოს ფერი მაგრამ მას ქონდეს დაყოვნება 2 წამი, ხოლო როდესაც მაუსს მივიტანთ ფერის შეცვლა მოხდეს 2 წამში დატრიალების განგრძლივობა იყოს 4 წამი და ზომაში გაზრდის განგრძლივობა 2 წამი, ანიმაცია დაიწყოს ნელა აჩქარდეს და დასრულდეს ისევ ნელა */
+
+.animated-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: background-color 2s ease-in-out;
+}
+
+.animated-div:hover {
+    background-color: blue;
+    animation: rotateScale 4s ease-in-out 2s forwards;
+}
+
+@keyframes rotateScale {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        transform: rotate(1440deg) scale(1.5);
+    }
+    100% {
+        transform: rotate(2880deg) scale(1.5);
+    }
+}

@@ -1,0 +1,40 @@
+<!--5) დაწერეთ ფორმა რომელშიც მომხმარებელი დარეგისტრირდება რაიმე event-ზე-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event რეგისტრაცია</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია ღონისძიებაზე</h2>
+    <form action="submit.php" method="post">
+        
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" placeholder="შეიყვანეთ სახელი" required>
+
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ ელ.ფოსტა" required>
+
+        <label for="event-type">აირჩიეთ ღონისძიების ტიპი:</label>
+        <select id="event-type" name="event-type">
+            <option value="tech">ტექნოლოგიური კონფერენცია</option>
+            <option value="art">ხელოვნების გამოფენა</option>
+            <option value="music">მუსიკალური ფესტივალი</option>
+            <option value="business">ბიზნეს შეხვედრა</option>
+        </select>
+
+        <label for="tickets">მონაწილეობის რაოდენობა:</label>
+        <input type="number" id="tickets" name="tickets" min="1" max="10" value="1">
+
+        <label for="comments">დამატებითი ინფორმაცია:</label>
+        <textarea id="comments" name="comments" placeholder="გაქვთ დამატებითი მოთხოვნები?" rows="3"></textarea>
+
+        <button type="submit">რეგისტრაცია</button>
+
+    </form>
+
+</body>
+</html>

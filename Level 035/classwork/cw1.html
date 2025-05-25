@@ -1,0 +1,34 @@
+<!--2) საიტზე დაამატეთ სამი სახის ტექსტი თითოეულ მათგანში თქვენი სიტყვებით ახსენით სამივე css ის წერის სტილი (internal, inline, external) და იმ ტექსტის გასასტილად გამოიყენეთ შესაბიმის css რომელზეც იმ ტექსტში გექნებათ საუბარი-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS სტილების ახსნა</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .internal-css {
+            color: lightblue;
+            font-size: 20px;
+            background-color: darkgray;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white; font-family: Arial, sans-serif;">
+    
+    <p class="internal-css">Internal CSS ნიშნავს სტილების განთავსებას **HTML დოკუმენტის შიგნით**, "head" თეგში, "style" ელემენტში. 
+    ეს მეთოდი გვაძლევს საშუალებას **ერთი ფაილით** გავაკონტროლოთ შიგთავსის ვიზუალური ელემენტები.</p>
+
+    <p style="color: yellow; font-size: 18px; background-color: gray; padding: 10px;">
+        Inline CSS ნიშნავს **სტილების პირდაპირ დოკუმენტის ელემენტზე დამატებას**, 
+        მაგალითად, **"style" ატრიბუტით**. მისი გამოყენება უფრო **პირდაპირია**, მაგრამ 
+        არ არის საუკეთესო გადაწყვეტილება დიდი და კომპლექსური საიტებისთვის.</p>
+
+    <p class="external-css">External CSS გულისხმობს **განსაკუთრებული ფაილის გამოყენებას** 
+    (მაგალითად, "styles.css"), სადაც ყველა სტილი **ცალკე** აღწერილია. 
+    ეს მეთოდი უფრო **პროფესიონალურია**, რადგან **მარტივად იყენებს მრავალ გვერდზე ერთდროულად**.</p>
+
+</body>
+</html>

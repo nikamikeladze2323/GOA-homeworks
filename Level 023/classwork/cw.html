@@ -1,0 +1,38 @@
+<!--1) შექმენით სარეგისტრაციო ფორმა სადაც მოხმამრებელმა უნდა შეიყვანოს სახელი, გვარი, მეილი, პაროლი გიმეოროს პაროლი დამატეთ submit ღილაკი, 
+თითოეულ ინფუთს უნდა ქონდეს შესაბამისი ატრიბუტები გამოიყენეთ placeholder, name, value ატრიბუტები type თავისთავად-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია</h2>
+    <form action="submit.php" method="post">
+        
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" placeholder="შეიყვანეთ სახელი" value="" required>
+
+        <label for="surname">გვარი:</label>
+        <input type="text" id="surname" name="surname" placeholder="შეიყვანეთ გვარი" value="" required>
+
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ ელ.ფოსტა" value="" required>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" value="" required>
+
+        <label for="confirm_password">გაიმეორეთ პაროლი:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="გაიმეორეთ პაროლი" value="" required>
+
+        <button type="submit">რეგისტრაცია</button>
+
+    </form>
+
+</body>
+</html>
+
+

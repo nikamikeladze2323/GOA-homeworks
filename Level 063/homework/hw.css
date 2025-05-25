@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    background: #333;
+    color: white;
+    padding: 50px;
+}
+
+.cta-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background: #0056b3;
+}
+
+.clients, .solutions, .experience {
+    padding: 40px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.category {
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.learn-btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.learn-btn:hover {
+    background: #1e7e34;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}

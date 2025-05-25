@@ -1,0 +1,43 @@
+<!--1) შექმენით სარეგისტრაციო ფორმა სადაც მომხმარებელმა უნდა შეიყვანოს სახელი გვარი, ემაილი, პაროლი, გაიმეოროს პაროლი, ტელეფონის ნომერი და გენდერი, გამოიყენეთ label ები და დააკავშირეთ ისინი სწორად input ებს, ასევე გამოიყენეთ ის ინფუთის ატრიბუტები რაც აქამდე ვისწავლეთ-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის ფორმა</title>
+</head>
+<body>
+
+    <h2>რეგისტრაცია</h2>
+    <form action="submit.php" method="post">
+        
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="შეიყვანეთ სახელი" required>
+
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="შეიყვანეთ გვარი" required>
+
+        <label for="email">ელ.ფოსტა:</label>
+        <input type="email" id="email" name="email" placeholder="შეიყვანეთ ელ.ფოსტა" required>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" placeholder="შეიყვანეთ პაროლი" required>
+
+        <label for="confirm_password">გაიმეორეთ პაროლი:</label>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="გაიმეორეთ პაროლი" required>
+
+        <label for="phone">ტელეფონის ნომერი:</label>
+        <input type="tel" id="phone" name="phone" placeholder="შეიყვანეთ ტელეფონის ნომერი" required>
+
+        <label>გენდერი:</label>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">მამრობითი</label>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">მდედრობითი</label>
+        <input type="radio" name="gender" value="other" id="other"><label for="other">სხვა</label>
+
+        <button type="submit">რეგისტრაცია</button>
+
+    </form>
+
+</body>
+</html>

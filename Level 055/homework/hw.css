@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.promo-container {
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.guarantee {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.subscription {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-btn {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    background-color: #45a049;
+    color: white;
+}
+
+.why-us {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-us li {
+    padding: 5px 0;
+}

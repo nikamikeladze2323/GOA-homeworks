@@ -1,0 +1,29 @@
+/* 1) შექმენით 4 ღილაკი პირველ ორში ეწერება ერთი და იგივე რამ და ორივეს ექნება ერთი და იგივე სტილი შეუცვალეთ უკანა ფონის ფერი, ტექსტის ფერი, ტექსტის ზომა ეს ყველაფერი პირველ ორ ღილაკს ექნება ერთნაირი, ხოლო დარჩენილ 2-ს ექნება განსხვავებული სტილები ერთმანეთისგან  გამოიყენეთ class, id */
+
+/* პირველი ორი ღილაკის საერთო სტილი */
+.common-style {
+    background-color: #3498db; /* ცისფერი ფონი */
+    color: white; /* ტექსტის ფერი */
+    font-size: 18px; /* ტექსტის ზომა */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* მესამე ღილაკის სტილი */
+#unique-btn-1 {
+    background-color: #e74c3c; /* წითელი ფონი */
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border-radius: 5px;
+}
+
+/* მეოთხე ღილაკის სტილი */
+#unique-btn-2 {
+    background-color: #2ecc71; /* მწვანე ფონი */
+    color: black;
+    font-size: 16px;
+    padding: 8px 18px;
+    border: 2px solid black;
+}

@@ -1,0 +1,62 @@
+/* */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 40px 20px;
+}
+
+.shop-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background: #0056b3;
+}
+
+.intro, .best-sellers, .features {
+    padding: 40px;
+}
+
+.guide-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.guide img {
+    width: 150px;
+    height: auto;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+}

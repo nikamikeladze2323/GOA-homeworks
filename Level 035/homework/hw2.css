@@ -1,0 +1,25 @@
+/*1) ჩამოწერეთ დღეს ნასწავლი სამივე CSS-ის კოდის წერის ხერხი და დაწერეთ თითოეულის განმარტება*/
+
+/*
+<head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+*/
+
+/*
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+body {
+    background-color: lightblue;
+}
+
+*/
+
+/*
+<p style="color: red; font-size: 20px;">ეს არის Inline CSS</p>
+*/

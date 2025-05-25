@@ -1,0 +1,23 @@
+/* 2) შექმენით საიტი სადაც რომლის ცენტრშიც ეწერება დიდად თქვენი სახელი და გვარი ხოლო ამ საიტს ბექგრაუნდად შეურჩიეთ რაიმე ლამაზი ფოტო და დააყენეთ უკანა ფონზე */
+
+body {
+    background-image: url('beautiful-background.jpg'); /* ჩაანაცვლე შესაბამისი სურათის URL-ით */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}

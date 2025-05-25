@@ -1,0 +1,38 @@
+
+
+/* მწვანე წერტილოვანი ხაზით გაფორმებული ტექსტი */
+.green-dotted {
+    color: green;
+    text-decoration: dotted underline;
+}
+
+/* გადახაზული ტექსტი */
+.strikethrough {
+    text-decoration: line-through;
+}
+
+/* წითელი ტექსტი */
+.red {
+    color: red;
+}
+
+/* კლასიკური ხაზგასმული ტექსტი */
+.underline {
+    text-decoration: underline;
+}
+
+/* წერტილოვანი ხაზგასმა */
+.dotted-underline {
+    text-decoration: underline dotted;
+}
+
+/* ორმაგი ხაზგასმა */
+.double-underline {
+    text-decoration: underline double;
+}
+
+/* მწვანე ტექსტი ხაზგასმით */
+.green-underline {
+    color: green;
+    text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+/* ფერის სახელით (წითელი) */
+.color-name {
+    color: red;
+}
+
+/* RGB ფორმატით (მწვანე) */
+.rgb-color {
+    color: rgb(0, 128, 0);
+}
+
+/* HEX კოდით (ცისფერი) */
+.hex-color {
+    color: #3498db;
+}

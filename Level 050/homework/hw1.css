@@ -1,0 +1,42 @@
+body {
+    background-image: url('beautiful-background.jpg'); /* ჩაანაცვლე რეალური სურათით */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.description {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta-button {
+    background-color: #ff0080; /* ვარდისფერი ტონალობა */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d6006c;
+}

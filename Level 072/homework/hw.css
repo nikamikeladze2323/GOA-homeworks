@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    background: url('mustang.jpg') no-repeat center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #ff9900;
+}
+
+.custom-order, .engine-options {
+    padding: 20px;
+}

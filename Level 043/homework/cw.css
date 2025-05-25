@@ -1,0 +1,104 @@
+/* 3) დახურეთ module 2 quiz
+Image
+Davit Narimanidze — 23/12/2024 23:44
+4) ჩამიწერეთ მნიშვნელობები margin და padding-ისა
+
+5) დაწერეთ სამივე property რომელიც დღეს ვისწავლეთ list-ების გასტილვისთვის 
+
+6) გაიხსენეთ ის property რომელიც აერთიანებდა იმ წინა სამ property-ს
+7) შექმენით რამოდენიმე input  , password  და , email  შემდეგ გასტილეთ  გამოიყენეთ box- shadow, padding, margin, border-radius.
+
+8) შექმნით ორი input  სახელის და გვარის შესატანი ასევე ერთი button რომელიც თავიდან იქნება წითელი და ხელს რომ მიტან უნდა გახდეს მწვანე გაუწერეთ input -ს border- radius.
+
+9) შექმნით სარეგისტრაციო გრაფა რომელსაც ექნება border ასევე border -radius  background  ექნება მწვანე .
+
+10) ახსენით რარის border- radius და margin
+
+11)  რა განსხვავებაა border - ს და  padding -ს შორის
+
+12) დაამატე input ელემენტს 10px border-radius. ასევე, შეუქმენე ჩრდილი (box-shadow), რომელიც იქნება 0 4px 8px rgba(0, 0, 0, 0.2).
+
+13)შექმენი input ელემენტი, რომელსაც აქვს 15px padding ყველა მხრიდან. უზრუნველყე, რომ ტექსტი იყოს მარცხნივ განლაგებული, მაგრამ placeholder ტექსტი იყოს ცენტრში
+
+*/
+
+
+
+
+/* 
+4) Margin და Padding-ის მნიშვნელობები
+Margin: ელემენტებს შორის გარე სივრცე, რომელიც განსაზღვრავს დაშორებას სხვა ელემენტებთან.
+
+Padding: შიდა სივრცე ელემენტის შიგნით, რომელიც განსაზღვრავს ტექსტსა და ელემენტის საზღვრებს შორის დაშორებას.
+
+5) სამივე property list-ების გასტილვისთვის
+list-style-type – განსაზღვრავს ლისტის ნიშნების ტიპს (მაგ: circle, square, decimal).
+
+list-style-position – განსაზღვრავს ლისტის ნიშნების მდებარეობას (inside ან outside).
+
+list-style-image – ლისტის ელემენტების სანაცვლოდ შესაძლებელი ხდება გამოსახულების გამოყენება.
+
+6) Property, რომელიც აერთიანებს სამივე list-ის Property-ს
+list-style – აერთიანებს list-style-type, list-style-position და list-style-image ერთ Property-ში.
+
+*/
+
+.styled-input {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 2px solid #007BFF;
+}
+
+.rounded-input {
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #007BFF;
+}
+
+.color-button {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.color-button:hover {
+    background-color: green;
+}
+
+.register-box {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: green;
+    padding: 20px;
+}
+
+/* 
+10) Border-Radius და Margin-ის ახსნა
+Border-radius – ელემენტის კუთხეების მომრგვალება (მაგ: border-radius: 10px;).
+
+Margin – ელემენტის გარე სივრცის განსაზღვრა (მაგ: margin: 15px;).
+
+11) Border vs. Padding
+Border – ელემენტის გარე ჩარჩო, რომელიც განასხვავებს მას სხვა ელემენტებისგან.
+
+Padding – ელემენტის შიდა სივრცე, რომელიც განსაზღვრავს დაშორებას ტექსტსა და საზღვრებს შორის.
+*/
+
+.shadowed-input {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.center-placeholder {
+    padding: 15px;
+    text-align: left;
+}
+
+.center-placeholder::placeholder {
+    text-align: center;
+}

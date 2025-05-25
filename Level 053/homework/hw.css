@@ -1,0 +1,13 @@
+/* 1. შექმენით მარტივი ანიმაცია, რომელიც ცვლის 200x200 div-ის ფონს ფერს წითელიდან ლურჯში @keyframes-ის გამოყენებით, ანიმაცია უნდა გაგრძელდეს 2 წამი. */
+
+@keyframes changeColor {
+    0% { background-color: red; }
+    100% { background-color: blue; }
+}
+
+.animated-div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: changeColor 2s linear;
+}

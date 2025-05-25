@@ -1,0 +1,68 @@
+/*
+2) დღეს ნასწავლი მასალით google font-ში მოძებნეთ თქვენი საყვარელი font შემდეგ ჩამოწერეთ ნუშის დადებითი და უარყოფითი თვისებები
+3) დაწერეთ რამდენიმე განსხვავებული ფერის ზომის სისქის და font-ის ტექსტები
+
+4) ტექსტის ფერის შეცვლა
+გამოიყენეთ CSS, რომ ნებისმიერ ტექსტს მიანიჭოთ სხვადასხვა ფერები, მაგალითად, წითელი, ლურჯი ან მწვანე.
+
+5) შრიფტის ზომის შეცვლა
+მიანიჭეთ ტექსტს განსხვავებული შრიფტის ზომა (მაგ., 12px, 16px, 24px).
+
+6) ტექსტის სტილის შეცვლა (italic)
+გამოიყენეთ font-style რათა ტექსტი გახადოთ კურსივი.
+
+7) ტექსტის ხაზის გადატანა ცენტრში (text-align)
+დააყენეთ ტექსტი ცენტრში, მარცხნივ ან მარჯვნივ CSS-ის text-align-ის გამოყენებით.
+
+8) შრიფტის ტიპის შეცვლა
+გამოიყენეთ font-family სხვადასხვა შრიფტის ტიპებისთვის, როგორიცაა Arial, Times New Roman და სხვა.
+
+9) ტექსტის წონის შეცვლა (bold)
+გამოიყენეთ font-weight, რომ ტექსტი გახადოთ სქელი ან თხელი, მაგალითად, bold ან lighter 
+*/
+
+.text-red {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.text-blue {
+    color: blue;
+    font-size: 24px;
+    font-weight: lighter;
+    font-family: "Times New Roman", serif;
+}
+
+.text-green {
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Courier New", monospace;
+}
+
+
+.color-example {
+    color: red; /* წითელი */
+}
+
+.font-size-example {
+    font-size: 24px; /* 24px ზომა */
+}
+
+.italic-example {
+    font-style: italic;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.font-family-example {
+    font-family: "Times New Roman", serif;
+}
+
+.bold-text {
+    font-weight: bold;
+}

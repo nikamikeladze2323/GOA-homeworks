@@ -1,0 +1,29 @@
+<!--2) შექმენით საიტი სადაც იქნება ერთი ღილაკი როდესაც ამ ღილაკს დააჭერთ გაიხსნას გოას იუთუბ გვერდი ასევე იქნება დამატებული გოას ფოტო როდესაც ამ გოას ფოტოს დააჭერ გაიხსნას გოას ფეისბუქ გვერდი-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>გოას სოციალური ქსელები</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 20px; }
+        .button { padding: 10px 20px; background-color: blue; color: white; border: none; cursor: pointer; font-size: 18px; border-radius: 5px; }
+        .button:hover { background-color: darkblue; }
+        .image { cursor: pointer; width: 300px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>გოას სოციალური ქსელები</h1>
+    
+    <!-- ღილაკი YouTube-ზე გადასასვლელად -->
+    <button class="button" onclick="window.open('https://www.youtube.com/goa', '_blank')">გოას YouTube გვერდი</button>
+    
+    <br><br>
+
+    <!-- გოას ფოტო Facebook-ზე გადასასვლელად -->
+    <img src="goa.jpg" alt="გოა" class="image" onclick="window.open('https://www.facebook.com/goa', '_blank')">
+
+</body>
+</html>

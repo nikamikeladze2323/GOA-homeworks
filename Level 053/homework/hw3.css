@@ -1,0 +1,13 @@
+/* 4. შექმენით ტექსტი, შემდეგ კი ანიმაციის მეშვეობით შეუცვალეთ ფერი, გამოიყენეთ @keyframes. */
+
+@keyframes colorChange {
+    0% { color: red; }
+    50% { color: purple; }
+    100% { color: blue; }
+}
+
+.animated-text {
+    font-size: 24px;
+    font-weight: bold;
+    animation: colorChange 3s ease-in-out infinite;
+}

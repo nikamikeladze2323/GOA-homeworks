@@ -1,0 +1,33 @@
+<!--2) შექმენით ფორმა რომელშიც იქნება რამდენიმე ინფუთი აქედან ორ ინფუთს ექნება ტექსტის ტიპი(სახელი, გვარი), ორ ინფუთს ექნება პაროლის ტიპი(პაროლი, გაიმეორე პაროლი) და ერთ ინფუთს ექნება მეილის  შემდეგ თითოეულ ინფუთის ტიპს მიწვდებით css იდან და შეუცვლით თქვენთვის სასურველ სტილებს, ყველას ქონდეს განსხავებული სტილები, შეუცვალეთ ბორდერები, outline, ფერები .....-->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფორმის სტილიზაცია</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="surname">გვარი:</label>
+        <input type="text" id="surname" name="surname">
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="confirm-password">გაიმეორე პაროლი:</label>
+        <input type="password" id="confirm-password" name="confirm-password">
+
+        <label for="email">მეილი:</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">გაგზავნა</button>
+    </form>
+
+</body>
+</html>

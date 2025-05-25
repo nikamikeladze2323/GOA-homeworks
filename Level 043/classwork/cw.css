@@ -1,0 +1,34 @@
+/* 1) შექმენით იმდენი ლისტი რამდენი ლისტის ტიპიც გვაქვს(ყველა შესაძლო ვარიანტი) თითოეულ ლისტში იყოს სამი ლისტის ელემენტი, მიანიჭეთ თითოეულს განსხვავებული ლისტის ტიპი, და განსხვავებული პოზიციები, ბოლოში დაამატეთ ერთი ლისტი რომელსაც გადასცემთ ფოტოს */
+
+.circle-list {
+    list-style-type: circle; /* წრიული მარკერი */
+}
+
+.square-list {
+    list-style-type: square; /* კვადრატული მარკერი */
+}
+
+.disc-list {
+    list-style-type: disc; /* დისკის ფორმის მარკერი */
+}
+
+.decimal-list {
+    list-style-type: decimal; /* ციფრებით დანომრილი */
+}
+
+.roman-list {
+    list-style-type: upper-roman; /* რომაული ციფრები */
+}
+
+.alpha-list {
+    list-style-type: upper-alpha; /* დიდი ასოებით დანომრილი */
+}
+
+.image-list {
+    list-style-type: none; /* საერთოდ ვშლით ლისტის მარკერს */
+}
+
+.image-list li img {
+    width: 30px; /* ფოტოების ზომის განსაზღვრა */
+    margin-right: 10px; /* ფოტოს და ტექსტის დაშორება */
+}

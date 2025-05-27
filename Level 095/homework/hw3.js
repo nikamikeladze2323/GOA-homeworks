@@ -1,0 +1,1 @@
+// 4)გადახედეთ დამატებით თეორიულ მასალას: https://www.w3schools.com/jsref/jsref_filter.asp

@@ -1,0 +1,1 @@
+// 4)გაეცანით თეორიულ მასალას Arrow function-ებზე https://www.w3schools.com/Js/js_arrow_function.asp

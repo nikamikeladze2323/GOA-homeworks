@@ -1,0 +1,1 @@
+// 5)გაეცანით თეორიულ მასალას map-მეთოდზე  https://www.w3schools.com/jsref/jsref_map.asp 

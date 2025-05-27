@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Login</title>
+    <link rel="stylesheet" href="./style4.css">
+    <script src="hw4.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>რეგისტრაცია</h2>
+        <form id="registerForm">
+            <input type="text" id="regFullname" placeholder="სრული სახელი" required>
+            <input type="email" id="regEmail" placeholder="ელ.ფოსტა" required>
+            <input type="password" id="regPassword" placeholder="პაროლი" required>
+            <button type="submit">რეგისტრაცია</button>
+        </form>
+
+        <h2>ავტორიზაცია</h2>
+        <form id="loginForm">
+            <input type="email" id="loginEmail" placeholder="ელ.ფოსტა" required>
+            <input type="password" id="loginPassword" placeholder="პაროლი" required>
+            <button type="submit">შესვლა</button>
+        </form>
+
+        <h2>რეგისტრირებული მომხმარებლები</h2>
+        <ul id="userList"></ul>
+    </div>
+
+</body>
+</html>

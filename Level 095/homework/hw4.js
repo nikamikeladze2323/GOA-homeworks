@@ -1,0 +1,1 @@
+// 5)ასევე უყურეთ ამ ვიდეოს : https://youtu.be/VvSEKHKFvpQ?si=nIP22S9RnNkSKbNx

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(10, 10, 60);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.main .list-of-cars {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.main .list-of-cars .first {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(40, 40, 255);
+    padding: 20px 30px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main .list-of-cars .first:hover{
+    transform: scale(1.1);
+}
+
+.main .list-of-cars .second {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(40, 40, 255);
+    padding: 20px 30px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main .list-of-cars .second:hover{
+    transform: scale(1.1);
+}
+
+.main .list-of-cars .third {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(40, 40, 255);
+    padding: 20px 30px;
+    border-radius: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main .list-of-cars .third:hover{
+    transform: scale(1.1);
+}
+
+.main .list-of-cars .first p{
+    color: white;
+    text-align: center;
+}
+
+.main .list-of-cars .second p{
+    color: white;
+    text-align: center;
+}
+
+.main .list-of-cars .third p{
+    color: white;
+    text-align: center;
+}
+

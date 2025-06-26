@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f5f5f5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  box-shadow: 2px 2px 2px 2px #dfdfdf;
+}
+
+.header h1 span{
+  color: #ff4444;
+}
+
+.header p {
+  display: none;
+}
+
+.header div {
+  display: flex;
+  gap: 30px;
+}
+
+.header div a {
+  text-decoration: none;
+  color: black;
+}
+
+.header div .first {
+  background-color: #ff4444;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header div .second {
+  border-radius: 4px;
+  border: black 2px solid;
+  padding: 10px 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.todo-container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 800px;
+  overflow-y: scroll;
+} 
+
+.todo-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.todo-container::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.todo-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+  border: 2px solid #f0f0f0;
+}
+
+.todo-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.todo-container {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f0f0f0;
+}
+
+.enter-submit {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 10px;
+  margin: 8px 0;
+  padding: 10px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+
+.todo-item:hover {
+  background: #e2e2e2;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-body {
+  flex: 1;
+  padding: 0 10px;
+  display: flex;
+}
+
+.todo-text {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+  line-height: 1.4rem;
+}
+
+.todo-text[contenteditable="true"] {
+  outline: 2px solid #007bff;
+  background: #eaf4ff;
+  border-radius: 3px;
+  width: 40ch;
+  line-height: 1.4rem;
+  padding: 2px;
+}
+
+.actions {
+  gap: 6px;
+}
+
+button {
+  font-weight: bold;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #007bff;
+  color: white;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+}
+
+.todo-item input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  margin-right: 20px;
+}
+
+.todo-item input[type="checkbox"]::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+  box-shadow: inset 1em 1em white;
+  background-color: transparent;
+}
+
+.todo-item input[type="checkbox"]:checked {
+  background-color: #007bff;
+}
+
+.todo-item input[type="checkbox"]:checked::before {
+  transform: scale(1);
+  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 20%, 80% 0%, 43% 62%);
+  background-color: white;
+}
+
+.todo-container h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.clear-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+@media (max-width: 400px) {
+  .header div a {
+    display: none;
+  }
+  .header {
+    display: flex;
+    
+  }
+  .header p {
+    display: contents;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  .todo-container {
+    width: 90%;
+    padding: 15px 20px;
+  }
+}

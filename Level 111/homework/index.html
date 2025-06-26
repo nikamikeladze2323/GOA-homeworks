@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Todo<span>App</span></h1>
+    <p>☰</p>
+    <div>
+      <a class="first" href="#">Sign up</a>
+      <a class="second" href="#">login</a>
+    </div>
+  </header>
+  <main class="main">
+    <section class="todo-container">
+      <div class="enter-submit">
+        <input id="todoInput" placeholder="Enter a task..." maxlength="200" />
+        <button id="submitTodo">Add</button>
+      </div>
+      <h3>Pending Tasks</h3>
+      <div id="todoList"></div>
+
+      <h3>Completed Tasks</h3>
+      <div id="completedList"></div>
+      <button id="clearAllBtn" class="clear-btn">Clear All</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
